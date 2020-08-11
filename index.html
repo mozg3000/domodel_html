@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
     <meta charset="UTF-8">
-	<link rel="stylesheet" th:href="@{/css/styles.css}" />
+	<link rel="stylesheet" href="/css/styles.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Domodel</title>
 </head>
@@ -18,7 +18,7 @@
 					<p class="welcom">
 						Добро пожаловать
 					</p>
-					<a th:href="@{/}">
+					<a href="/">
 						<svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 							<rect width="135" height="40" fill="url(#pattern0)"/>
 							<defs>
@@ -34,37 +34,37 @@
 					<nav >
 						<ul class="menu r-flex">
 							<li >
-								<a th:href="@{/news}">
+								<a href="/news">
 									новости
 								</a>
 							</li>
 							<li>
-								<a th:href="@{/about}">
+								<a href="/about">
 									о нас
 								</a>
 							</li>
 							<li>
-								<a th:href="@{/photos}">
+								<a href="/photos">
 									фото
 								</a>
 							</li>
 							<li>
-								<a th:href="@{/documents}">
+								<a href="/documents">
 									документы
 								</a>
 							</li>
 							<li>
-								<a th:href="@{/news}">
+								<a href="/news">
 									обращения
 								</a>
 							</li>
 							<li>
-								<a th:href="@{/votes}">
+								<a href="/votes">
 									голосования
 								</a>
 							</li>
 							<li>
-								<a th:href="@{/contacts}">
+								<a href="/contacts">
 									контакты
 								</a>
 							</li>
@@ -72,7 +72,7 @@
 					</nav>
 				</div>
 				<div class="header_right">
-					<img th:src="@{/img/home_page/avatar.png}" alt="avatar"/>
+					<img src="/img/home_page/avatar.png" alt="avatar"/>
 					<div class="notlogged">
 						<a href="#openModal">
 							войти
@@ -92,7 +92,7 @@
 		<main >
 			<div class="container content">
 				<article class="card_news r-flex">
-					<img th:src="@{/img/news/1/1.png}" alt="news foto"/>
+					<img src="/img/news/1/1.png" alt="news foto"/>
 					<div class="card_header card_header__impotant">
 						<h3>
 							ВАЖНО!
@@ -108,7 +108,7 @@
 					</div>
 				</article>
 				<article class="card_news r-flex">
-					<img th:src="@{/img/news/1/1.png}" alt="news foto"/>
+					<img src="/img/news/1/1.png" alt="news foto"/>
 					<div class="card_header">
 						<h3>
 							Новость какая-то
