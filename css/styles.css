@@ -82,6 +82,7 @@ header{
 .header_right > img{
 	margin: 0 auto;
 	display: block;
+	width: 73px
 }
 .notlogged{
 	/*display: none;*/
