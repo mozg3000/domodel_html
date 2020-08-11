@@ -138,6 +138,10 @@ main{
 	background-color: #FFFFFF;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
+	margin: 20px 0 0 0;
+}
+.card_news:first-child{
+	margin: 0;
 }
 .card_news > img{
 	width: 166px;
@@ -250,3 +254,28 @@ input[type="button"]:hover{
 	justify-content: center;
 }
 /*foto page*/
+.images_box{
+	flex-wrap: wrap;
+    justify-content: space-between;
+}
+.alboum_title{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	color: #404040;
+	display: inline;
+}
+.foto_container{
+	background-color: #FFF;
+	width: 1400px;
+	margin: 20px 0 0 0;
+	padding: 20px 30px 93px 60px;
+}
+.foto_number{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0 0 0 7px;
+}
