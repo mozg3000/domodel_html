@@ -310,19 +310,21 @@ input[type="button"]:hover{
 .foto_container{
 	background-color: #FFF;
 	width: 1400px;
-	margin: 20px 0 0 0;
+	margin: 20px auto 0 auto;
 	padding: 20px 30px 19px 60px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
 }
 .foto_archive{
+	margin: 44px 0 0 0;
+	text-align: right;
+}
+.foto_archive > a{
 	font-style: normal;
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 22px;
-	text-align: right;
 	color: #404040;
-	margin: 44px 0 0 0;
 }
 .foto_number{
 	font-style: normal;
