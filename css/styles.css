@@ -175,6 +175,15 @@ main{
 	width: 83px;
 	padding: 15px 13px 0 0;
 }
+.news_archive{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: right;
+	color: #404040;
+	margin: 17px 0 0 0;
+}
 /*modal window*/
 .modal{
 	display: none;
@@ -257,6 +266,23 @@ input[type="button"]:hover{
 .images_box{
 	flex-wrap: wrap;
     justify-content: space-between;
+	padding: 38px 0 0 0;
+}
+.images_box > article{
+	margin: 0 0 37px
+}
+.images_box > article > img{
+	border-radius: 5px;
+	width: 300px;
+	display: block;
+}
+.images_box > article > p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #404040;
+	margin: 15px 0 0 0;
 }
 .alboum_title{
 	font-style: normal;
