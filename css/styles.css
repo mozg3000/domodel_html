@@ -29,7 +29,8 @@ a{
 .top{
 	margin-top: 10px;
 	flex: 1 0 auto;
-	background-color: #E5E5E5;	
+	background-color: #E5E5E5;
+	padding: 0 0 30px 0;
 }
 .container{
 	width: 1440px;
@@ -156,7 +157,12 @@ main{
 	font-style: normal;
 }
 .card_header > h3{
+	font-style: normal;
 	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+}
+.card_header__impotant > h3{
 	font-size: 24px;
 	line-height: 29px;
 }
@@ -264,13 +270,21 @@ input[type="button"]:hover{
 	justify-content: center;
 }
 /*foto page*/
+.alboum{
+	margin: 0 0 69px 0;
+}
+.alboum:last-child{
+	margin: 0;
+}
 .images_box{
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 300px);
+	grid-column-gap: 35px;
+	grid-row-gap: 40px;
     justify-content: space-between;
 	padding: 38px 0 0 0;
 }
 .images_box > article{
-	margin: 0 0 37px
 }
 .images_box > article > img{
 	border-radius: 5px;
@@ -297,7 +311,18 @@ input[type="button"]:hover{
 	background-color: #FFF;
 	width: 1400px;
 	margin: 20px 0 0 0;
-	padding: 20px 30px 93px 60px;
+	padding: 20px 30px 19px 60px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+.foto_archive{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: right;
+	color: #404040;
+	margin: 44px 0 0 0;
 }
 .foto_number{
 	font-style: normal;
