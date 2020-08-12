@@ -333,3 +333,114 @@ input[type="button"]:hover{
 	line-height: 17px;
 	margin: 0 0 0 7px;
 }
+/*about page*/
+.about_container{
+	background-color: #FFF;
+	width: 1277px;
+	margin: 20px auto 0 auto;
+	padding: 20px 30px 19px 60px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding: 27px 50px;
+	font-style: normal;
+	font-weight: normal;
+	color: #404040;
+}
+.about_container > h1{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	margin: 0 0 29px 0;
+}
+.contact_header, .requisites_header{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+.contacts_section, .requisites_section{
+	border-bottom: 1px solid #C4C4C4;
+	padding: 0 0 53px 0;
+}
+.contacts_section > article, 
+.requisites_section > article{
+	margin: 12px 0 0 145px
+}
+.contact_address > p:first-child{
+	padding: 0 39px 0 0;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+.contact_address > p:last-child{
+	flex-grow: 3;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	word-break: break-all;
+}
+.contact_phone > p:first-child{
+	flex-basis: 102px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+.contact_phone > p:last-child{
+	flex-grow: 3;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+}
+.contact_mail > p:first-child{
+	flex-basis: 102px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+.contact_mail> p:last-child{
+	flex-grow: 3;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+}
+.company_name{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	margin: 0 0 14px 0;
+}
+.requisites_section{
+	padding-top: 36px;
+}
+
+.requisites_details > p:first-child{
+	
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+.requisites_details > p:last-child{
+	flex-grow: 3;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	word-break: break-all;
+}
+.inn{
+	padding: 0 53px 0 0;
+}
+.kpp{
+	padding: 0 56px 0 0;	
+}
+.ogrn{
+	padding: 0 45px 0 0;	
+}
+.account{
+	padding: 0 67px 0 0;	
+}
+.kc{
+	padding: 0 66px 0 0;
+}
+.bic{
+	padding: 0 57px 0 0;
+}
