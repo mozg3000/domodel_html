@@ -27,7 +27,6 @@ a{
 	flex-direction: column;
 }
 .top{
-	margin-top: 10px;
 	flex: 1 0 auto;
 	background-color: #E5E5E5;
 	padding: 0 0 30px 0;
@@ -442,4 +441,84 @@ input[type="button"]:hover{
 }
 .bic{
 	padding: 0 57px 0 0;
+}
+/* about page*/
+.about_container{
+	max-width: 1400px;
+	margin: 20px auto;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	background-color: #FFF;
+	padding: 48px 58px;
+	color: #404040;
+}
+.about_history,
+.about_management,
+.about_revision{
+	margin:  0 0 60px 0;
+}
+
+.about_history > h2,
+.about_management > h2,
+.about_revision > h2{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	margin: 0 0 53px 0;
+}
+.about_management > article,
+.about_revision > article{
+	margin: 0 0 52px 0;
+}
+.about_management > article:last-child{
+	margin: 0 0 60px 0;
+}
+img[alt="memorial foto"]{
+	width: 256px;
+	margin: 0 47px 27px 0;
+	float: left;
+}
+.memorial{
+	min-height: 144px;;
+}
+.memorial_line{
+	width: 500px;
+	border: 1px solid #C4C4C4;
+	margin: 0 auto;
+}
+.about_history .memorial_line{
+	margin: 26px auto 0 auto;
+}
+img[alt="chairman"],
+img[alt="member1"],
+img[alt="member2"]{
+	margin: 0 170px 0 0;
+	width: 135px;
+	height: 180px;
+	object-fit: cover;
+	
+}
+.about_container img{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px
+	object-fit: fit;
+}
+.about_chairman{
+	margin: 0 0 32px 0;
+}
+.about_chairman h3{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #404040;
+	margin: 0 0 29px 0;
+}
+.about_chairman p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #404040;
 }
