@@ -390,6 +390,62 @@ input[type="button"]:hover{
 	height: 40px;
 	justify-content: center;
 }
+.add_news{
+	margin: 59px 0 0 0;
+}
+form[name="add_news"]{
+	flex-direction: column;
+	justify-content: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #C4C4C4;
+}
+input[name="news title"]{
+	margin: 0 0 25px 0;
+
+}
+form[name="add_news"] input,
+form[name="add_news"] textarea,
+form[name="add_news"] checkbox{
+	border-radius: 5px;
+	border: none;
+    outline: none;
+	padding: 10px 11px;
+}
+form[name="add_news"] input[type="button"],
+form[name="add_news"] input[type="submit"]{
+	background-color: #E5E5E5;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #404040;
+}
+.inputshadow {
+	box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);	
+}
+form[name="add_news"] label{
+	margin: 0 42px 0 21px;
+}
+form[name="add_news"] label: first-child{
+	margin: 0 0 0 21px;
+}
+textarea{
+	min-height: 121px;
+}
+.add_news_controls{
+	margin: 12px 0 21px 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #404040;
+	align-items: baseline;
+}
 /*foto page*/
 .alboum{
 	margin: 0 0 69px 0;

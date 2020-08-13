@@ -92,6 +92,25 @@
 		</header><!--header-->
 		<main >
 			<div class="container content">
+				<div class="add_news">
+					<form name="add_news" method="post" action="#" class="r-flex">
+						<input type="text" placeholder="Введите название новости" name="news title" class="inputshadow">
+						<textarea placeholder="Введите описание новости" class="inputshadow"></textarea>
+						<div class="add_news_controls r-flex">
+							<div class="add_news_controls_left">
+								<input type="checkbox" name="fixed" class="inputshadow"/>
+								<label for="fixed">Закрепить новость</label>
+								<input type="checkbox" name="public" class="inputshadow">
+								<label for="public">Публичная новость</label>
+							</div>
+							<div class="add_news_controls_right">
+								<input type="button" name="put image" value="Вставить картинку" class=""/>
+								<input type="button" name="put href" value="Вставить гиперссылку"/>
+								<input type="submit" name="submit news" value="Опубликовать"/>
+							</div>
+						</div>
+					</form>
+				</div>
 				<article class="card_news r-flex">
 					<img src="./img/news/1/1.png" alt="news foto">
 					<div class="card_header card_header__impotant">
@@ -99,7 +118,7 @@
 							ВАЖНО!
 						</h3>
 						<p>
-							Очередное собрание состоиться 24 августа в 14:00 Очередное собрание состоиться 24 августа в 14:00 Очередное собрание состоиться 24 августа в 14:00 Очередное собрание состоиться 24 августа в 14:00 Очередное собрание состоиться 24 августа в 14:00
+							Очередное собрание состоиться 24 августа в 14:00
 						</p>
 					</div>
 					<div class="card_news__date">
