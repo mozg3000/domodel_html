@@ -223,8 +223,13 @@ header{
 	font-size: 14px;
 	line-height: 17px;
 }
-.logged > p:last-child {
+.logged >a {
 	margin: 7px 0 0 0;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #404040;
 }
 .menu{
 	list-style: none;
