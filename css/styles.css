@@ -160,7 +160,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*header*/
 header{
-	height: 130px;
+	min-height: 130px;
 	background-color: #FFF;
 	padding: 0 0 3px 0;
 }
@@ -216,7 +216,6 @@ header{
 	
 }
 .logged{
-	display:none;
 	
 }
 .logged > p:first-child{
@@ -680,7 +679,7 @@ img[alt="member2"]{
 }
 .about_container img{
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 5px
+	border-radius: 5px;
 	object-fit: fit;
 }
 .about_chairman{
