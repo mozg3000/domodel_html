@@ -21,7 +21,7 @@ a{
 }
 /*структура*/
 .wrapper{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -393,6 +393,7 @@ input[type="button"]:hover{
 	margin: 59px 0 0 0;
 }
 form[name="add_news"]{
+	font-family: 'Roboto', sans-serif;
 	flex-direction: column;
 	justify-content: center;
 	font-style: normal;
@@ -416,6 +417,7 @@ form[name="add_news"] checkbox{
 form[name="add_news"] input[type="button"],
 form[name="add_news"] input[type="submit"]{
 	background-color: #E5E5E5;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -680,7 +682,7 @@ img[alt="member2"]{
 .about_container img{
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
-	object-fit: fit;
+	object-fit: fill;
 }
 .about_chairman{
 	margin: 0 0 32px 0;
