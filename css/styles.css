@@ -58,7 +58,7 @@ footer{
   font-weight: 900;
 }
 
-@media (max-width: 1212px) {
+@media (max-width: 1250px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -644,4 +644,12 @@ img[alt="member2"]{
 	font-size: 18px;
 	line-height: 22px;
 	color: #404040;
+}
+
+@media (max-width: 1500px) {
+	.header_right{
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+	}
 }
