@@ -1,5 +1,25 @@
 $(document).ready(function() {
     "use strict";
+	//------Close modal window event-------//
+	if($('#login').length){
+		$('#login').on('click', function(e){
+			e.preventDefault();
+			$('#loginForm').css('display', 'block').css('pointer-events', 'auto');
+		});
+	}
+	if($('#loginForm').length){
+		// let $closeModal = $('input[name="cancel"]);
+		
+		$('input[name="cancel"]').on('click', function(e){
+			e.preventDefault();
+			$('#loginForm').css('display', 'none').css('pointer-events', 'none');
+		});
+		$('#close_X').on('click', function(e){
+			e.preventDefault();
+			$('#loginForm').css('display', 'none').css('pointer-events', 'none');
+		});
+	}
+	//location.replace(location.pathname)
     //------- Mobile Nav  js --------//  
 
     if ($('#nav-menu-container').length) {
@@ -41,3 +61,4 @@ $(document).ready(function() {
         $("#mobile-nav, #mobile-nav-toggle").hide();
     }
 });
+
