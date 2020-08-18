@@ -553,6 +553,17 @@ textarea{
 	font-size: 14px;
 	line-height: 17px;
 }
+form[name="contacts"] input{
+	display: block;
+	color: #000000;
+}
+form[name="contacts"] input .noteditable{
+	outline: none;
+	border: none;
+}
+form[name="contacts"] label{
+	color: #000000;
+}
 .contact_header, .requisites_header{
 	font-weight: 500;
 	font-size: 20px;
@@ -566,42 +577,45 @@ textarea{
 .requisites_section > article{
 	margin: 12px 0 0 145px
 }
-.contact_address > p:first-child{
+.contact_address > label{
 	padding: 0 39px 0 0;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 22px;
 }
-.contact_address > p:last-child{
+.contact_address > input{
 	flex-grow: 3;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 24px;
 	word-break: break-all;
+	font-weight: 300;
 }
-.contact_phone > p:first-child{
+.contact_phone > label{
 	flex-basis: 102px;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 22px;
 }
-.contact_phone > p:last-child{
+.contact_phone > input{
 	flex-grow: 3;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 24px;
+	font-weight: 300;
 }
-.contact_mail > p:first-child{
+.contact_mail > label{
 	flex-basis: 102px;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 22px;
 }
-.contact_mail> p:last-child{
+.contact_mail> input{
 	flex-grow: 3;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 24px;
+	font-weight: 300;
 }
 .company_name{
 	font-style: normal;
@@ -615,18 +629,19 @@ textarea{
 	padding-top: 36px;
 }
 
-.requisites_details > p:first-child{
+.requisites_details > label{
 	
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 22px;
 }
-.requisites_details > p:last-child{
+.requisites_details > input{
 	flex-grow: 3;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 24px;
 	word-break: break-all;
+	font-weight: 300;
 }
 .inn{
 	padding: 0 53px 0 0;
