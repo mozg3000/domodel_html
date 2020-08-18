@@ -299,6 +299,8 @@ main{
 	margin: 13px 0 0 0;
 }
 .card_news__date{
+	flex-direction: column;
+	justify-content: space-beetween;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 14px;
@@ -306,7 +308,7 @@ main{
 	text-align: right;
 	color: #404040;
 	width: 83px;
-	padding: 15px 13px 0 0;
+	padding: 15px 13px 13px 0;
 }
 .news_archive{
 	font-style: normal;
