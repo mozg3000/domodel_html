@@ -548,6 +548,11 @@ textarea{
 	line-height: 29px;
 	margin: 0 0 29px 0;
 }
+.contacts_container > h1 > a{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+}
 .contact_header, .requisites_header{
 	font-weight: 500;
 	font-size: 20px;
