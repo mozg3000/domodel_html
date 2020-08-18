@@ -306,9 +306,14 @@ main{
 	font-size: 14px;
 	line-height: 17px;
 	text-align: right;
-	color: #404040;
 	width: 83px;
 	padding: 15px 13px 13px 0;
+}
+.card_news__date  a{
+	font-size: 18px;
+	line-height: 22px;
+
+color: #404040;
 }
 .news_archive{
 	font-style: normal;
